@@ -40,15 +40,37 @@
 3.0 - GENERIC
 -------------------------------------------------------------- */
 
-html {
-	font-size: 1rem;
+* {
+	-mox-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
 }
+
+
+.wrapper{
+	width: 90%;
+	margin: 0 auto;
+}
+
+
+h1{
+	font-size: 1.5rem;
+	line-height: 1em;
+	margin-top: 2em;
+	margin-bottom: 1.5em;
+}
+
 
 @media only screen and (min-width: 768px) {
 	html {
-		font-size: 1rem;
+		font-size: 1.5rem;
+		line-height: 1.5em;
 	}
 }
+
 
 @media only screen and (min-width: 1024px) {
 	html {
@@ -56,6 +78,12 @@ html {
 	}
 }
 
+
+@media only screen and (max-width: 500px){
+	.hide-sm{
+		display: none;
+	}
+}
 
 /*--------------------------------------------------------------
 4.0 - ELEMENTS
@@ -63,17 +91,15 @@ html {
 
 /* -- TYPOGRAPHY -- */ 
 
-
-@media only screen and (min-width: 768px) {
-	
-}
-
-@media only screen and (min-width: 1024px) {
-	
-}
 nav li{
 	display: inline-block;
 }
+
+
+a {
+	text-decoration: none;
+}
+
 
 /*--------------------------------------------------------------
 5.0 - OBJECTS
@@ -104,9 +130,49 @@ nav li{
 	text-align: center;
 }
 
-@media only screen and (max-width: 500px){
-	.hide-sm{
-		display: none;
-	}
+
+
+/*--------------------------------------------------------------
+7.0 - Utilities
+-------------------------------------------------------------- */
+
+/* -- COLOR -- */ 
+
+#bg-darkgreen{
+	background-color: #10443f;
 }
+
+#bg-bluegreeen, footer, #bg-darkgreen, a, bold, .center{
+	color: #fff;
+}
+
+#bg-gray{
+	background-color: #f4f7f9;
+}
+
+#bg-green{
+	background-color: #104f41;
+
+}
+#bg-bluegreeen{
+	background-color: #1ea78d;
+
+}
+
+span {
+	color: #0FDC95;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
