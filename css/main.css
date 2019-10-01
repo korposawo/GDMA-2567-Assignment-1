@@ -50,21 +50,12 @@
 }
 
 
-h1{
-	font-size: 1.5rem;
-	line-height: 1em;
-	margin-top: 2em;
-	margin-bottom: 1.5em;
-}
-
-
 @media only screen and (min-width: 768px) {
 	html {
 		font-size: 1.5rem;
 		line-height: 1.5em;
 	}
 }
-
 
 @media only screen and (min-width: 1024px) {
 	html {
@@ -75,9 +66,7 @@ h1{
 
 
 @media only screen and (max-width: 500px){
-	.hide-sm{
-		display: none;
-	}
+	
 }
 
 /*--------------------------------------------------------------
@@ -85,19 +74,6 @@ h1{
 -------------------------------------------------------------- */
 
 /* -- TYPOGRAPHY -- */ 
-
-nav li{
-	display: inline-block;
-}
-
-li a:hover {
-    color: #68F9FF;
-}
-
-
-a {
-	text-decoration: none;
-}
 
 h1{
     font-size: 1.8rem;
@@ -109,46 +85,82 @@ h4, h1{
 
 .gray p{
 	color: #909da6;
+	font-family: 'Open Sans', sans-serif;
 }
 
-h2{
-	color: #0eb493;
-    text-align: center;
-    border-bottom: .1em solid #ccc;
-    padding-bottom: .7em;
-	text-transform: uppercase;
-	
+h2 {
+  color: #0eb493;
+  text-align: center;
+  border-bottom: .1em solid #ccc;
+  padding-bottom: .7em;
+  text-transform: uppercase;
+
+}
+h2 p{
+	color: #5b646e;
 }
 
-#bg-green p{
+.big{
 	font-size: 2.5rem;
 }
+.thin{
+	font-weight: 100;
+}.small{
+	font-size: .9rem;
+}
+.mid{
+	font-size: 2rem;
+}
+.big p{
+	font-weight: 100;
+}
 
-
-
-/*--------------------------------------------------------------
-5.0 - OBJECTS
--------------------------------------------------------------- */
-
-/* -- FRAMEWORK -- */ 
-
-
-
+.bold{
+	font-weight: 900;
+	color: #FFF;
+}
 /*--------------------------------------------------------------
 6.0 - COMPONENTS
 -------------------------------------------------------------- */
 
 /* -- HEADER -- */
 
+h1{
+	font-size: 1.5rem;
+	line-height: 1em;
+	margin-top: 2em;
+	margin-bottom: 1.5em;
+}
 
 nav{
 	text-align: right;
 	font-size: .80rem;
 }
 
-h1, h1+p{
-  display: inline-block;
+
+nav li{
+	display: inline-block;
+	
 }
+
+ul{
+  margin-top: 2.6em;
+  font-size: 1rem;
+
+}
+ul li{
+	margin-left: 2.2em
+}
+
+li a:hover {
+    color: #68F9FF;
+}
+
+
+a {
+	text-decoration: none;
+}
+
 /*--------------------------------------------------------------
 .0 - UTILITY
 -------------------------------------------------------------- */
@@ -162,18 +174,24 @@ h1, h1+p{
 .txt-center{
 	text-align: center;
 }
-ul{
-  margin-top: 2.6em;
-  font-size: 1rem;
 
-}
-ul li{
-	margin-left: 2.2em
+.center{
+	margin: 0 auto;
+	float: none;
 }
 
-/*--------------------------------------------------------------
-7.0 - Utilities
--------------------------------------------------------------- */
+h1, h1+p{
+  display: inline-block;
+}
+
+.fea{
+	padding-bottom: 4.5em;
+
+}
+
+.col{
+	padding-left: 3.5em;
+}
 
 /* -- COLOR -- */ 
 
@@ -187,17 +205,15 @@ ul li{
 
 .bg-gray{
 	background-color: #f4f7f9;
-	padding-top: 5rem;
-	padding-bottom: 7rem;
-	
+	padding-top: 4.5rem;
 }
 
-#bg-green{
-	line-height: .60em;
-	color: #fff;
-	background-color: #104f41;
-	padding-top: 20rem;
-	padding-bottom: 9rem;
+#bg-green {
+  background: #104f41;
+  line-height: .60em;
+  color: #fff;
+  padding-top: 20rem;
+  padding-bottom: 9rem;
 }
 
 .white{
@@ -209,13 +225,16 @@ ul li{
 	background-color: #1ea78d;
 	padding-top: 5rem;
 	padding-bottom: 5rem;
+	border-top: 5px solid #051d2e;
 }
 
 span {
 	color: #0FDC95;
 }
 
-
+#bg-darkgreen p{
+	color: #647b79;
+}
 
 
 
