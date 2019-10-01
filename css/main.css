@@ -50,12 +50,6 @@
 }
 
 
-.wrapper{
-	width: 90%;
-	margin: 0 auto;
-}
-
-
 h1{
 	font-size: 1.5rem;
 	line-height: 1em;
@@ -75,6 +69,7 @@ h1{
 @media only screen and (min-width: 1024px) {
 	html {
 		font-size: 1rem;
+		
 	}
 }
 
@@ -95,10 +90,40 @@ nav li{
 	display: inline-block;
 }
 
+li a:hover {
+    color: #68F9FF;
+}
+
 
 a {
 	text-decoration: none;
 }
+
+h1{
+    font-size: 1.8rem;
+}
+
+h4, h1{
+	font-family: 'Pacifico', cursive;
+}
+
+.gray p{
+	color: #909da6;
+}
+
+h2{
+	color: #0eb493;
+    text-align: center;
+    border-bottom: .1em solid #ccc;
+    padding-bottom: .7em;
+	text-transform: uppercase;
+	
+}
+
+#bg-green p{
+	font-size: 2.5rem;
+}
+
 
 
 /*--------------------------------------------------------------
@@ -116,6 +141,14 @@ a {
 /* -- HEADER -- */
 
 
+nav{
+	text-align: right;
+	font-size: .80rem;
+}
+
+h1, h1+p{
+  display: inline-block;
+}
 /*--------------------------------------------------------------
 .0 - UTILITY
 -------------------------------------------------------------- */
@@ -129,8 +162,14 @@ a {
 .txt-center{
 	text-align: center;
 }
+ul{
+  margin-top: 2.6em;
+  font-size: 1rem;
 
-
+}
+ul li{
+	margin-left: 2.2em
+}
 
 /*--------------------------------------------------------------
 7.0 - Utilities
@@ -146,26 +185,35 @@ a {
 	color: #fff;
 }
 
-#bg-gray{
+.bg-gray{
 	background-color: #f4f7f9;
+	padding-top: 5rem;
+	padding-bottom: 7rem;
+	
 }
 
 #bg-green{
+	line-height: .60em;
+	color: #fff;
 	background-color: #104f41;
-
+	padding-top: 20rem;
+	padding-bottom: 9rem;
 }
+
+.white{
+	padding-top: 9rem;
+	padding-bottom: 6rem;
+}
+
 #bg-bluegreeen{
 	background-color: #1ea78d;
-
+	padding-top: 5rem;
+	padding-bottom: 5rem;
 }
 
 span {
 	color: #0FDC95;
 }
-
-
-
-
 
 
 
